@@ -221,25 +221,28 @@ public class Main {
 //         } System.out.print(revers);
 
 
-    //Qustion17(Sorry NOt Completed,)
+    //Qustion17
 
 //        int number;
 //        int larg = Integer.MIN_VALUE;
 //        int small = Integer.MAX_VALUE;
-//        boolean choice=true;
-//        do
-//        {
-//            System.out.print("Enter the Number :");
-//            number = input.nextInt();
-//            if(number > larg)
-//            {
-//                larg = number;
+//        boolean check =true;
+//        do {
+//            try {
+//                System.out.print("Enter the Number :");
+//                number = input.nextInt();
+//                if (number > larg) {
+//                    larg = number;
+//                }
+//                if (number < small) {
+//                    small = number;
+//                }
+//            }catch (Exception exc) {
+//                input.nextLine();
+//                break;
 //            }
-//            if(number < small)
-//            {
-//                small = number;
-//            }
-//        }while(choice);
+//       } while (check);
+//
 //        System.out.println("Largest Number : " + larg);
 //        System.out.println("Smallest Number : " + small);
 
